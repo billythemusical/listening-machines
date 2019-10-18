@@ -17,7 +17,7 @@ void ofApp::setup(){
   soundStream.setup(numberOfOutputChannels, numberOfInputChannels, sampleRate, frameSize, numberOfBuffers);
 
   
-  mltk.setup(frameSize, sampleRate, frameSize/2);
+  mltk.setup(frameSize, sampleRate, frameSize/2, true);
   mltk.run();
 
 // Let's make ourselves some GUI
